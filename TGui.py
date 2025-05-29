@@ -35,7 +35,7 @@ class GUI(Controller):
         self.video_label = ctk.CTkLabel(self.bg_frame, text="")
         self.video_label.place(relx=0.5, rely=0.5, anchor="center")
 
-        self.title_label = self.create_label(self.top_frame,text='dji tello dalla chiesa',font=("impact",50),fg_color=self.color[1]) 
+        self.title_label = self.create_label(self.top_frame,text='dji tello',font=("impact",50),fg_color=self.color[1]) 
         self.title_label.place(relx=0.005, rely=0.2)
 
         self.setting_state = False #aperta o chiusa la finestra delle impostazioni
